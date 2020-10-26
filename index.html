@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Harry Potter Tribute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+    <main id="main">
+        <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+ -->
+        <header>
+            <h1 id="title">Timeline of Harry Potter's Life</h1>
+            <h2 id="subtitle">The boy who lived</h2>
+        </header>
+        <!-- User Story #3: I should see a div element with a corresponding id="img-div".
+ -->
+        <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+-->
+        <div id="img-div">
+            <figure>
+                <img id="image" src="./resources/harry-potter-wallpaper.jpg"
+                    alt="Harry Potter and The Blood-half Pince cover">
+                <!-- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+     -->
+                <figcaption>Albus Dumbledore and Harry Potter searching for one of the Voldemort's horrocruxes</figcaption>
+            </figure>
+        </div>
+        <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+ -->
+        <section id="tribute-info">
+            <h3>Here's a time line of Harry Potter's life</h3>
+            <article>
+                <h4>1980</h4>
+                <ul>
+                    <li>July 31: Harry James Potter born to Lily Evans Potter and James Potter.</li>
+                </ul>
+                <h4>1981</h4>
+                <ul>
+                    <li>October 31: near midnight – Voldemort attempts to kill Harry Potter after murdering his parents,
+                        but
+                        his spell rebounds. Voldemort loses most of his powers and almost his life.</li>
+                    <li>November 1, late evening: Hagrid delivers baby Harry to Dumbledore, who is waiting in Privet
+                        Drive
+                        to leave the baby with the Dursleys.</li>
+                </ul>
+                <h4>1991</h4>
+                <ul>
+                    <li>July 24-30: letters begin arriving via owl post to invite Harry to Hogwarts.</li>
+                    <li>July 31, just after midnight: Hagrid rescues Harry from the Dursleys and from the Hut on the
+                        Rock.
+                    </li>
+                </ul>
+                <h4>1992</h4>
+                <ul>
+                    <li>first week of June: Harry, Hermione, and Ron follow Quirrell after the Stone, overcome the
+                        various
+                        protections, and defeat Quirrell/Voldemort’s attempt to steal the Stone.</li>
+                </ul>
+            </article>
+        </section>
+        <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+ -->
+        <footer id="footer">
+            <p>If you can see the complete time line, you can <a
+                    href="https://www.hp-lexicon.org/thing/harry-potters-life-timeline/" target="_blank">click here to go to
+                    HP-Lexicon</a></p>
+        </footer>
+        <!-- User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+ -->
+        <!-- User Story #9: The img element should be centered within its parent element. -->
+    </main>
+</body>
+
+</html>
